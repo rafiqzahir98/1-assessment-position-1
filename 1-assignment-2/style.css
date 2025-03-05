@@ -148,3 +148,7 @@ body {
     max-width: 350px;
   }
 }
+
+.reverse .about-content {
+  flex-direction: row-reverse;
+}
