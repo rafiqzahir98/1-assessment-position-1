@@ -1,0 +1,498 @@
+.box-1 {
+  background-color: #3d9ffa;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+.box-2 {
+  background-color: #31830b;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+.box-3 {
+  background-color: #e10505;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+.box-4 {
+  background-color: #3d9ffa;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+}
+.box-5 {
+  background-color: #31830b;
+  height: 200px;
+  width: 200px;
+}
+.box-6 {
+  background-color: #e10505;
+  height: 200px;
+  width: 200px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-2 {
+  display: flex;
+}
+
+.box-7 {
+  background-color: #3d9ffa;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+.box-8 {
+  background-color: #31830b;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+.box-9 {
+  background-color: #e1cb05;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+.parent-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-10 {
+  background-color: #3d9ffa;
+  height: 200px;
+  width: 200px;
+}
+
+.box-11 {
+  background-color: #31830b;
+  height: 200px;
+  width: 200px;
+}
+
+.box-12 {
+  background-color: #e0c205;
+  height: 200px;
+  width: 200px;
+}
+
+/* Desktop 5 */
+.parent-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.box-13 {
+  background-color: #3d9ffa;
+  height: 200px;
+  width: 200px;
+}
+
+.box-14 {
+  background-color: #31830b;
+  height: 200px;
+  width: 200px;
+}
+
+.box-15 {
+  background-color: #e0c205;
+  height: 200px;
+  width: 200px;
+}
+
+/* Desktop 6 */
+.parent-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.box-16 {
+  background-color: #3d9ffa;
+  height: 200px;
+  width: 200px;
+}
+
+.box-17 {
+  background-color: #31830b;
+  height: 200px;
+  width: 200px;
+}
+
+.box-18 {
+  background-color: #e10505;
+  height: 200px;
+  width: 200px;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.desktop {
+  width: 48%;
+  padding: 20px;
+}
+
+.parent-7 {
+  display: flex;
+}
+
+.box-19 {
+  background-color: #3d9ffa;
+  height: 100px;
+  width: 200px;
+}
+
+.box-20 {
+  background-color: #31830b;
+  height: 100px;
+  width: 200px;
+}
+
+.box-21 {
+  background-color: #e0c205;
+  height: 100px;
+  width: 400px;
+}
+
+.parent-8 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.box-22 {
+  background-color: #3d9ffa;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box-23 {
+  background-color: #31830b;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.box-24 {
+  background-color: #e10505;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+.parent-16 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #c1d6ee;
+}
+
+.box-25 {
+  background-color: #e0c205;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.box-26 {
+  background-color: #3d9ffa;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+.box-27 {
+  background-color: #e1054a;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 140px;
+  left: 140px;
+}
+
+/* Desktop 9 */
+.parent-9 {
+  display: flex;
+  position: relative;
+  background: white;
+  height: 200px;
+}
+
+.box-30 {
+  width: 50%;
+  height: 100%;
+  background: #5fa2f5;
+}
+
+.box-31 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: #e0c73a;
+  transform: translate(-50%, -50%);
+}
+
+/* Desktop 10 */
+.parent-10 {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 200px;
+}
+
+.box-32 {
+  height: 40px;
+  background: #3f7222;
+}
+
+.box-33 {
+  flex-grow: 1;
+  display: flex;
+}
+
+.box-33 .box-30 {
+  width: 15%;
+  height: 100%;
+  background: #5fa2f5;
+}
+
+/* Desktop 11 */
+.parent-11 {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 250px;
+}
+
+.box-34 {
+  height: 40px;
+  background: #3f7222;
+}
+
+.box-35 {
+  flex-grow: 1;
+  display: flex;
+}
+
+.box-35 .box-30 {
+  width: 15%;
+  height: 100%;
+  background: #5fa2f5;
+}
+
+/* Top green horizontal bar */
+.box-40 {
+  height: 40px;
+  background: #3f7222;
+}
+
+/* Bottom green horizontal bar */
+.box-41 {
+  height: 20px;
+  background: #3f7222;
+}
+
+/* Desktop 12 */
+.parent-12 {
+  display: flex;
+  background: white;
+  height: 250px;
+}
+
+.box-36 {
+  width: 10%;
+  background: #5fa2f5;
+}
+
+.content-12 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-37 {
+  width: 40%;
+  height: 150px;
+  background: white;
+  border: 2px solid black;
+}
+
+/* Desktop 13 */
+.parent-13 {
+  display: flex;
+  background: white;
+  height: 300px;
+}
+
+.box-38 {
+  width: 10%;
+  background: #5fa2f5;
+}
+
+.content-13 {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  place-items: center;
+}
+
+.box-39 {
+  width: 45%;
+  height: 120px;
+  background: white;
+  border: 2px solid black;
+}
+
+/* Green horizontal bars */
+.box-40 {
+  height: 40px;
+  background: #3f7222;
+}
+
+.box-41 {
+  height: 20px;
+  background: #3f7222;
+}
+
+/* Desktop 14 */
+.parent-14 {
+  display: flex;
+  background: white;
+  padding: 20px;
+  gap: 10px;
+}
+
+.left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-50 {
+  height: 50px;
+  background: white;
+  border: 2px solid black;
+}
+
+.three-boxes {
+  display: flex;
+  gap: 10px;
+}
+
+.box-51 {
+  flex: 1;
+  height: 150px;
+  background: white;
+  border: 2px solid black;
+}
+
+.box-52 {
+  height: 50px;
+  background: white;
+  border: 2px solid black;
+}
+
+.box-57 {
+  height: 50px;
+  background: white;
+  border: 2px solid black;
+}
+
+.two-boxes {
+  display: flex;
+  gap: 10px;
+}
+
+.box-53 {
+  flex: 1;
+  height: 70px;
+  background: white;
+  border: 2px solid black;
+}
+
+/* Desktop 15 */
+.parent-15 {
+  display: flex;
+  background: white;
+  padding: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-container {
+  width: 70px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.side-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.box-54 {
+  height: 200px;
+  background: white;
+  border: 2px solid black;
+}
+
+.box-55 {
+  height: 50px;
+  background: white;
+  border: 2px solid black;
+}
+
+.box-56 {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 2px solid black;
+}
