@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.product-card {
+  width: 900px;
+  height: 650px;
+  background: linear-gradient(to right, #424242, #000);
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container span {
+  margin-right: 8px;
+}
+
+.shop-now {
+  background-color: #ff6b9e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Product Content */
+.product-content {
+  position: relative;
+  height: 350px;
+}
+
+.product-branding {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oval-background {
+  width: 700px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nike-text {
+  font-size: 160px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  position: absolute;
+}
+
+.nike-text.ni {
+  z-index: 1;
+  left: 90px;
+}
+
+.nike-text.ke {
+  z-index: 3;
+  left: 350px;
+}
+
+.shoe-image {
+  position: absolute;
+  width: 570px;
+  left: 4%;
+
+  z-index: 2;
+}
+
+.product-info {
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  text-align: right;
+  max-width: 300px;
+}
+
+.product-name {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  background-color: #5d3bf6;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.cart-icon {
+  font-size: 20px;
+}
