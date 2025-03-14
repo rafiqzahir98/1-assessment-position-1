@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+section#hero {
+  background-color: #26335d;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+section#hero > header {
+  /*background-color: red;*/
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+section#hero > header > nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+section#hero > header > nav > ul > button {
+  all: unset;
+  background-color: #ff6551;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+section#hero > div {
+  /*background-color: blue;*/
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#hero > div > div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+}
+
+section#hero > div > div.left > h2 {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+section#hero > div > div.left > p.bold {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+section#hero > div > div.left > p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+section#hero > div > div.left > ul > button.colored {
+  all: unset;
+  background-color: #ff6551;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #ff6551;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+section#hero > div > div.left > ul > button.transparent {
+  all: unset;
+  background-color: transparent;
+  color: #ff6551;
+  border-radius: 5px;
+  border: 2px solid #ff6551;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+section#brands {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+section#brands > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+
+section#brands > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  background-color: none;
+  border-radius: 16px;
+  padding: 10px 20px;
+}
+
+section#every-client {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+section#every-client > div {
+  /*background-color: red;*/
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+section#every-client > div > div.left > img {
+  width: 400px;
+}
+
+section#every-client > div > div.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+}
+
+section#every-client > div > div.right > h2 {
+  font-size: 50px;
+}
+
+section#every-client > div > div.right > p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+section#every-client > div > div.right > h3 {
+  font-size: 16px;
+  color: #ff6551;
+}
+
+section#popular-courses {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+section#popular-courses > div {
+  /*background-color: red;*/
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+section#popular-courses > div > div.right > img {
+  width: 400px;
+}
+
+section#popular-courses > div > div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+}
+
+section#popular-courses > div > div.left > h2 {
+  font-size: 50px;
+}
+
+section#popular-courses > div > div.left > p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+section#testimonials {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
