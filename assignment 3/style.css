@@ -312,3 +312,111 @@ section#practice-advice > div > div > div > button.transparent {
   padding: 10px 20px;
   cursor: pointer;
 }
+
+section#get-quality {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+section#get-quality > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+}
+
+section#get-quality > div > p {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #ff6551;
+  background-color: none;
+}
+
+section#get-quality > div > h2 {
+  font-size: 28px;
+}
+
+section#get-quality > div > h3 {
+  font-family: "Roboto", sans-serif;
+  color: #737373;
+  background-color: none;
+}
+
+section#get-quality > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+section#get-quality > div > div > div {
+  background-color: none;
+  border-radius: 16px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+
+section#get-quality > div > div > div > p.offer {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: #ff6551;
+  background-color: none;
+}
+
+section#get-quality > div > div > div > p.name {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  background-color: none;
+}
+
+section#get-quality > div > div > div > p.desc {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  background-color: none;
+}
+
+section#get-quality > div > div > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+}
+
+section#get-quality > div > div > div > div > p.normal {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: darkgray;
+  background-color: none;
+}
+
+section#get-quality > div > div > div > div > p.discount {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #2dc071;
+  background-color: none;
+}
+
+section#get-quality > div > div > div > button.transparent {
+  all: unset;
+  background-color: transparent;
+  color: #ff6551;
+  border-radius: 50px;
+  border: 2px solid #ff6551;
+  padding: 10px 20px;
+  cursor: pointer;
+}
